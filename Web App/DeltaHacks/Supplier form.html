@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Supplier Registration</title>
+    <link href="https://fonts.googleapis.com/css?family=Alata|Alatsi|Didact+Gothic|Fjalla+One|Hammersmith+One|Montserrat|Montserrat+Alternates|Montserrat+Subrayada|Poppins|Quicksand|Six+Caps&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="shortcut icon" href="Favicon.png">
+</head>
+<body style="background-color:#3c78d8">
+    <div class="SLheader">
+        <a href="homepages.html"><img src="Logo.png" class="Elogo" width=150px height=auto></a>
+    </div>
+    <h1 class="registerTitle">Register</h1>
+    <div class="supplierPara">According to CBC, 58% of all food produced annually in Canada is either lost or thrown out. As a restaurant, 
+        supermarket, or even food truck owner, you can change this! If you have extra food goods that you don't want to throw out at the end
+        of each day, register with <span class="NourishInPara">Nourish</span>. We provide a platofrm for you to communicate directly with people in need to provide them with what could be their only meal of the day.</div>
+    <div class="divider"></div>
+    <form action="index.html" method="post">
+        
+        <fieldset>
+          <legend><span class="number">1</span>Basic info</legend>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" required>
+          
+          <label for="mail">Email:</label>
+          <input type="email" id="mail" name="user_email" required>
+          
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="user_password" minlength="8" required>
+
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" name="phoneNum" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        </fieldset>
+        
+        <fieldset>
+          <legend><span class="number">2</span>Business Profile</legend>
+          <label for="bio">Business Name:</label>
+          <input type="text" id="busiName" name="busi_name" required>
+          <label for="bio">Business Address:</label>
+          <input type="text" id="bio" name="busi_bio" required>
+        </fieldset>
+        <label>Business Type:</label>
+            <input type="checkbox" id="Supermarket" value="busType" name="business"><label class="light">Supermarket</label><br>
+            <input type="checkbox" id="Restaurant" value="busType" name="business"><label class="light">Restaurant</label><br>
+            <input type="checkbox" id="Foodbank" value="busType" name="business"><label class="light" >Foodbank</label><br>
+            <input type="checkbox" id="Other" value="busType" name="business"><label class="light">Other</label><br>
+            <br>
+        <button type="submit" class="submit">Register</button>
+      </form>
+</body>
+</html>

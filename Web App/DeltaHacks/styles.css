@@ -1,0 +1,253 @@
+/*Homepage style*/
+html,body{
+  width: 100%;
+  height: 100%;
+  
+}
+
+.container{
+  padding: 0px 0;
+  margin: 50 auto;
+  width: 1400px;
+}
+
+h1{
+  position: absolute;
+  top: 5%; left: 10%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 60px;
+  font-family: 'Alata', sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #3c78d8;
+}
+
+.hlogo{
+  position: absolute;
+  height: 50px; width: auto;
+  top: 4.8%; left: 17%;
+  margin-bottom: 0px;
+}
+
+.cred{
+  position: absolute;
+  top: 5%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 60px;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #3c78d8;
+}
+
+.gallery-wrap {
+  position: relative; top: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+
+.item {
+  flex: 1;
+  height: 85%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.75s ease;
+  -webkit-transition: flex 0.75s ease;
+  -o-transition: flex 0.75s ease;
+  -moz-transition: flex 0.75s ease;
+}
+
+.item:hover{
+  flex: 10;
+}
+
+.item-1 { 
+  background-image: url('image1.png');
+}
+
+.item-2 { 
+  background-image: url('image2.png');
+}
+
+.item-3 { 
+  background-image: url('image3.png');
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Register style*/
+.SLheader{
+  position: relative;
+  left:-2%;top:-2%;
+  width: 2000px; height:120px;
+  padding: 30px; 
+  text-align: left;
+  background: #ffffff;
+  font-size: 30px;
+}
+
+.Elogo{
+  position: relative;
+  top: -25%;
+}
+
+.supplierPara{
+  float: left;
+  text-align: justify;
+  text-justify: inter-character;
+  padding-left: 150px;
+  color: #ffffff; font-size: 20px;  font-family: 'Montserrat', sans-serif;
+  width: 45%;
+  position: absolute;
+  line-height: 2;
+}
+
+.NourishInPara{
+  font-size: 30px;  font-family: 'Alata', sans-serif;
+  font-weight: bold;
+}
+
+.divider{
+  border-left: 2px solid rgb(255, 255, 255);
+  height: 750px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 65%;
+}
+
+.registerTitle{
+  position: relative;
+  top: 5%; left: 88%;
+  margin-bottom: 60px;
+  font-family: 'Alata', sans-serif;
+  font-size: 76px;
+  text-transform: uppercase;
+  color: #fdfdfd;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #384047;
+}
+
+form {
+  position: relative; top:-10%; right:-20%;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px 20px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 30px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+.submit {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #3c78d8;
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  border-radius: 10px;
+  width: 100%;
+  border: 1px solid #3c78d8;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 5px;
+}
+
+fieldset {
+  margin-bottom: 10px;
+  border: none;
+  padding: 10px;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+  padding-top: -5px;
+}
+
+.number {
+  background-color: #3c78d8;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}
+
+/*Map Style*/
