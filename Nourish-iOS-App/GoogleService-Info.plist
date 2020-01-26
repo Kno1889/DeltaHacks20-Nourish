@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>393414666328-banksc54ks1g9romhliafudm8k37tlet.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.393414666328-banksc54ks1g9romhliafudm8k37tlet</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDFLTAvjvysR3mx3RbohTiTP0uQjVQvoOE</string>
+	<key>GCM_SENDER_ID</key>
+	<string>393414666328</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.abdel.Nourish</string>
+	<key>PROJECT_ID</key>
+	<string>nourish-b38bd</string>
+	<key>STORAGE_BUCKET</key>
+	<string>nourish-b38bd.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:393414666328:ios:d656e7b3f6c8d2218cc22d</string>
+	<key>DATABASE_URL</key>
+	<string>https://nourish-b38bd.firebaseio.com</string>
+</dict>
+</plist>
